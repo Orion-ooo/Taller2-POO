@@ -38,9 +38,9 @@ public class Ejercicio2_Coche {
         return velocidadMaxima;
     }
 
-    public void setVelocidadMaxima(double velocidadMaxima) {
+    public void acelerar(double velocidadMaxima) {
         if (velocidadMaxima >= 0) {
-            this.velocidadMaxima = velocidadMaxima;
+            this.velocidadMaxima += velocidadMaxima;
         } else {
             this.velocidadMaxima = 0;
         }

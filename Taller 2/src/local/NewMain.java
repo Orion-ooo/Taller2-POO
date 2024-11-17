@@ -36,12 +36,12 @@ public class NewMain {
         coche.setMarca(entradaTexto.nextLine());
         System.out.println("ingrese el modelo del coche:");
         coche.setModelo(entradaTexto.nextLine());
-        System.out.println("ingrese la nota promedio del estudiante:");
-        coche.setVelocidadMaxima(entradNum.nextDouble());
+        System.out.println("ingrese una velocidad para acelerar:");
+        coche.acelerar(entradNum.nextDouble());
 
-        System.out.println("nombre del estudiante: " + coche.getMarca());
-        System.out.println("edad del estudiante: " + coche.getModelo());
-        System.out.println("nota promedio del estudiante: " + coche.getVelocidadMaxima());
+        System.out.println("marca: " + coche.getMarca());
+        System.out.println("modelo: " + coche.getModelo());
+        System.out.println("acelarando: " + coche.getVelocidadMaxima());
         
         //Forma incorrecta:
         
